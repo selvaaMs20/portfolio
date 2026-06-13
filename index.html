@@ -308,6 +308,18 @@
 
   /* PROJECTS */
   #projects { }
+  .project-badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: var(--accent);
+    color: white;
+    padding: 0.15rem 0.55rem;
+    border-radius: 3px;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+  }
   .proj-heading {
     font-family: 'DM Serif Display', serif;
     font-size: clamp(2rem, 3.5vw, 2.8rem);
@@ -447,7 +459,7 @@
         </div>
       </div>
       <div class="stat-card">
-        <div class="stat-num">3</div>
+        <div class="stat-num">2</div>
         <div class="stat-desc">
           <strong>Apps Published</strong>
           Google Play Store & App Store
@@ -560,12 +572,12 @@
       </div>
       <p class="exp-company">Athen Tech Solutions</p>
       <ul class="exp-bullets">
-        <li>Developed and maintained 3 Flutter-based cross-platform mobile apps for Android and iOS from a single codebase.</li>
+        <li>Developed and maintained 2 Flutter-based cross-platform mobile apps for Android and iOS from a single codebase.</li>
         <li>Built and integrated scalable .NET Core Web APIs to support mobile application backends.</li>
         <li>Implemented Azure Cognitive Services Face API for biometric authentication, serving 5,000+ enterprise employees.</li>
         <li>Designed Azure Logic Apps and Azure Functions to automate backend workflows and data processing pipelines.</li>
         <li>Applied Bloc state management with clean architecture, improving maintainability and scalability.</li>
-        <li>Led end-to-end deployment, publishing 3 apps to Google Play Store and Apple App Store.</li>
+        <li>Led end-to-end deployment, publishing 2 apps to Google Play Store and Apple App Store.</li>
       </ul>
     </div>
     <div class="timeline-item">
@@ -590,6 +602,26 @@
   <h2 class="proj-heading">Things I've built.</h2>
   <div class="projects-grid">
     <div class="project-card">
+      <div class="project-icon">🌐</div>
+      <span class="project-badge">Self-Initiated · In Progress</span>
+      <h3 class="project-name">Remote Job Portal</h3>
+      <p class="project-desc">Self-initiated full-stack job portal built with Clean Architecture, CQRS/MediatR, and JWT authentication. Features a Flutter mobile frontend and .NET Core Web API backend with EF Core and SQL Server. CI/CD pipeline deployed via Azure DevOps to Azure App Service.</p>
+      <div class="project-stack">
+        <span class="stack-tag">Flutter</span>
+        <span class="stack-tag">.NET Core Web API</span>
+        <span class="stack-tag">Clean Architecture</span>
+        <span class="stack-tag">CQRS / MediatR</span>
+        <span class="stack-tag">EF Core</span>
+        <span class="stack-tag">SQL Server</span>
+        <span class="stack-tag">Azure DevOps</span>
+        <span class="stack-tag">Azure App Service</span>
+        <span class="stack-tag">JWT Auth</span>
+      </div>
+      <div style="margin-top: auto; padding-top: 0.5rem;">
+        <a href="https://github.com/selvaaMs20" target="_blank" style="font-size:0.78rem; color:var(--accent); text-decoration:none; font-weight:500;">View on GitHub →</a>
+      </div>
+    </div>
+    <div class="project-card">
       <div class="project-icon">📱</div>
       <h3 class="project-name">FgMySpace</h3>
       <p class="project-desc">Attendance app for 5,000+ Future Generali Life Insurance employees. Enables tap-to-mark daily attendance from anywhere using Face ID authentication. Integrated Azure Cognitive Services Face API and Firebase Dynamic Links.</p>
@@ -600,6 +632,10 @@
         <span class="stack-tag">Firebase</span>
         <span class="stack-tag">Logic Apps</span>
         <span class="stack-tag">MySQL</span>
+      </div>
+      <div style="margin-top: auto; padding-top: 0.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+        <a href="https://github.com/selvaaMs20/flutter-fgMySpace-mobileApp" target="_blank" style="font-size:0.78rem; color:var(--accent); text-decoration:none; font-weight:500;">Mobile App →</a>
+        <a href="https://github.com/selvaaMs20/dotnet-fgMySpace-webapi" target="_blank" style="font-size:0.78rem; color:var(--accent); text-decoration:none; font-weight:500;">Web API →</a>
       </div>
     </div>
     <div class="project-card">
@@ -613,6 +649,9 @@
         <span class="stack-tag">Azure</span>
         <span class="stack-tag">SQL</span>
       </div>
+      <div style="margin-top: auto; padding-top: 0.5rem;">
+        <a href="https://github.com/selvaaMs20/dotnet-adat-webapi" target="_blank" style="font-size:0.78rem; color:var(--accent); text-decoration:none; font-weight:500;">View on GitHub →</a>
+      </div>
     </div>
     <div class="project-card">
       <div class="project-icon">🔗</div>
@@ -623,6 +662,36 @@
         <span class="stack-tag">Azure Functions</span>
         <span class="stack-tag">Azure DevOps</span>
         <span class="stack-tag">FreshService</span>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-icon">🩺</div>
+      <h3 class="project-name">Meta Consult App</h3>
+      <p class="project-desc">Doctor-patient online consultation app enabling real-time communication via video and audio platforms. Built as Flutter Developer implementing GetX state management and MVC architecture pattern for a clean, maintainable codebase.</p>
+      <div class="project-stack">
+        <span class="stack-tag">Flutter</span>
+        <span class="stack-tag">Dart</span>
+        <span class="stack-tag">GetX</span>
+        <span class="stack-tag">MVC Pattern</span>
+        <span class="stack-tag">Video & Audio</span>
+      </div>
+      <div style="margin-top: auto; padding-top: 0.5rem;">
+        <a href="https://github.com/selvaaMs20/Meta" target="_blank" style="font-size:0.78rem; color:var(--accent); text-decoration:none; font-weight:500;">View on GitHub →</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-icon">📈</div>
+      <h3 class="project-name">LeanProfit.ai</h3>
+      <p class="project-desc">Mobile app that transforms complex workflows into a streamlined productivity engine — empowering teams to collaborate, manage projects, and drive strategic initiatives that boost profitability.</p>
+      <div class="project-stack">
+        <span class="stack-tag">Flutter</span>
+        <span class="stack-tag">Dart</span>
+        <span class="stack-tag">Mobile</span>
+        <span class="stack-tag">Android</span>
+        <span class="stack-tag">iOS</span>
+      </div>
+      <div style="margin-top: auto; padding-top: 0.5rem;">
+        <a href="https://github.com/selvaaMs20/flutter-leanprofit-mobileApp" target="_blank" style="font-size:0.78rem; color:var(--accent); text-decoration:none; font-weight:500;">View on GitHub →</a>
       </div>
     </div>
     <div class="project-card">
